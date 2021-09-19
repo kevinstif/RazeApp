@@ -4,12 +4,38 @@
 		<meta charset="utf-8">
 		<title>Raze</title>
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel= "icon" type= "image/png" href="img/Icon.png">
+        <link rel= "icon" type= "image/png" href="img/Icon.png">
 		<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
 		<link rel="stylesheet" type="text/css" href="css/style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap" rel="stylesheet">
 	</head>
 	<body>
-		<div></div><!--nav-->
+    <div>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container-fluid">
+                <div class="nav-img">
+                <img class="nav-img" src="img/Logo.png" alt="Logo">
+                </div>
+                <div class="navbar-div" id="navbarNav">
+                    <ul class="navbar-nav nav-ul" id="nav-ul">
+                        <li class="nav-item"><a class="nav-link Font-jallaOne" href="#">Home</a></li>
+                        <li class="nav-item"><a class="nav-link Font-jallaOne" href="#">Features</a></li>
+                        <li class="nav-item"><a class="nav-link Font-jallaOne" href="#">Pricing</a></li>
+                        <li class="nav-item"><a class="nav-link Font-jallaOne">Disabled</a></li>
+                    </ul>
+                    <!--responsive-->
+                    <div>
+                        <button class="btn-responsive">
+                            <i class="fa fa-bars hamburger hamburger-icon" id="hamburger"></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </div><!--nav-->
+
 		<div> <!--title-->
       <img class="cover-image" src="img/coverpage.jpg" alt="imagen de portada">
       <p class="quote"> Los mejores consejos sobre imagen personal te esperan </p>
@@ -56,7 +82,8 @@
               </div>
         </div><!--cards2-->
 		<div></div><!--footer-->
+        <script src="https://kit.fontawesome.com/9e472163c3.js" crossorigin="anonymous"></script>
 		<script src=" https://kit.fontawesome.com/62ea397d3a.js" crossorigin="anonimus"></script>
-		<script src="js/jquery.js"></script>
+		<script src="js/script.js"></script>
 	</body>
 </html>
