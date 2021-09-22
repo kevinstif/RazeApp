@@ -97,6 +97,18 @@
     width: 500px;
     margin: 40px auto;
 }
+.cards2 .row{
+   
+    margin: auto;
+    border: 2px solid #000000;
+}
+.cards2 .row img{
+    padding: 20px 20px 15px;
+    margin: auto;
+    transform: translate(-11px);
+
+}
+
 
 a {
     text-decoration: none;
