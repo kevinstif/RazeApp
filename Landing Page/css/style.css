@@ -11,6 +11,10 @@
     font-family: 'Fjalla One', sans-serif;
 }
 
+body{
+    background-color: #F7F8F3;
+}
+
 .static{
     position: fixed;
     top: 0;
@@ -61,19 +65,23 @@
 
 .cover-image{
     width: 100%;
-    background-size: cover;
+    position: relative;
+    display: flex;
+    align-items: center;
 }
+    .ci__1{
+        width: 100%;
+    }
 
-.quote{
-    color: transparent;
-    text-align: center;
-    position: absolute;
-    font-size: 42px;
-    top: 50%;
-    left: 50%;
-    transform: translateX(-50%) translateY(-50%);
-    -webkit-text-stroke: 0.9px #FFFFFF;  
-}
+    .quote{
+        font-size: 42px;
+        text-align: center;
+        position: absolute;
+        color: transparent;
+        left: 50%;
+        transform: translateX(-50%);
+        -webkit-text-stroke: 0.9px #FFFFFF;  
+    }
 
 .cards1{
     width: 100%;
@@ -144,6 +152,23 @@ a:hover.btn {
     }
 }
 
+@media screen and (max-width: 730px) {
+    .quote{
+        font-size: 36px; 
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .quote{
+        font-size: 30px; 
+    }
+}
+
+@media screen and (max-width: 540px) {
+    .quote{
+        font-size: 25px; 
+    }
+}
 
 .container-footer-body
 {
