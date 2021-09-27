@@ -1,27 +1,24 @@
 <template>
   <v-app>
-    <v-app-bar app color="primary" dark>
-      <div>
-      <v-img :src="require('./img/Logo.png')"/>
-      </div>
+    <v-app-bar app color="primary">
+      <v-app-bar-title>
+        <span class="display-1">ACME STUDIO</span>
+        <v-divider inset vertical class="mx-1"></v-divider>
+        <span>Learning center</span>
+      </v-app-bar-title>
       <v-spacer></v-spacer>
-      <h3 >User Name</h3>
-      <v-btn icon>
-        <v-img  class="" src="#"></v-img>
-      </v-btn>
+      <v-btn plain to="/home" color="white">HOME</v-btn>
+      <v-btn plain to="/Posts" color="white">Posts</v-btn>
+      <v-btn plain to="/about" color="white">ABOUT</v-btn>
     </v-app-bar>
-
     <v-main>
+      <v-container fluid>
+        <router-view/>
+      </v-container>
     </v-main>
   </v-app>
 </template>
 
-<script>
+<style>
 
-export default {
-  name: 'App',
-  data: () => ({
-
-  }),
-};
-</script>
+</style>
