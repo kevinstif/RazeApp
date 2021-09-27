@@ -1,8 +1,3 @@
 {
-  "tutorials": [
-    {"id": 1, "title": "Example","description": "the best tips and tutorials for vue","published": false},
-    {"id": 2, "title": "Amazing Microsoft","description": "Weekly tutorials about .net core","published": false},
-    {"id": 3, "title": "JavaScript for all","description": "tricks and tips for js ","published": true},
-    {"id": 4, "title": "Vue unleashed","description": "vue at its best","published": false}
-  ]
+  
 }
