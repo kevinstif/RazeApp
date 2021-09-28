@@ -2,10 +2,15 @@
   <v-app>
     <v-app-bar app color="primary">
       <v-app-bar-title>
-        <span class="display-1">ACME STUDIO</span>
-        <v-divider inset vertical class="mx-1"></v-divider>
-        <span>Learning center</span>
+        <v-img :src="require('./img/Logo.png')"/>
       </v-app-bar-title>
+      <v-spacer></v-spacer>
+      <h3 >User Name</h3>
+      <v-btn icon>
+        <div>
+          <v-img alt="photo of profile"></v-img>
+        </div>
+      </v-btn>
       <v-spacer></v-spacer>
       <v-btn plain to="/home" color="white">HOME</v-btn>
       <v-btn plain to="/Posts" color="white">Posts</v-btn>
@@ -18,6 +23,12 @@
     </v-main>
   </v-app>
 </template>
+
+<script>
+export default {
+  name: 'App'
+}
+</script>
 
 <style>
 

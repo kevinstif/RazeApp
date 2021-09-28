@@ -9,7 +9,7 @@
         </v-card-text>
         <v-card-actions>
           <v-spacer></v-spacer>
-          <v-btn class="my-4 mx-4" type="submit">Publish</v-btn>
+          <v-btn color="primary" class="my-4 mx-4" type="submit">Publish</v-btn>
         </v-card-actions>
       </v-form>
     </v-card>

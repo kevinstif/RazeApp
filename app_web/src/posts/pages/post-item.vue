@@ -6,7 +6,7 @@
       <v-card-text>{{post.description}}</v-card-text>
       <v-card-actions>
         <v-spacer></v-spacer>
-        <v-btn>More</v-btn>
+        <v-btn color="primary">More</v-btn>
       </v-card-actions>
     </v-card>
   </v-container>
